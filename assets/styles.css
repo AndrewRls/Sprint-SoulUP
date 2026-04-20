@@ -16,3 +16,39 @@ body{
 ul{
     list-style-type: none;
 }
+
+.cabecalho, .footer{
+    width: 100%;
+    height: 10rem;
+    background-color: #4ccfca;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu a{
+    text-decoration: dotted;
+    color:#ffffff;
+    font-weight: 900;
+    border: 1px solid #06eeff;
+    padding: 1px 15px;
+    box-shadow: 2px 3px 4px #0a3fec;
+    border-radius: 5px;
+}
+
+.menu a:hover{
+    color: #fff;
+    border: 2px solid #0a3fec;
+    box-shadow: 2px 3px 4px #007c85;
+    
+}
+
+
+
+
+header ul{
+    display: flex;
+    gap: 2rem;
+}
