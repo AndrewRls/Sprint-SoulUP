@@ -1,59 +1,46 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-html{
-    font-size: 62.5%;
-}
-
-body{
-    font-size: 1.6rem;
-}
-
-ul{
-    list-style-type: none;
-}
-
-.cabecalho, .footer{
+.cabecalho,
+.footer {
     width: 100%;
     min-height: 10rem;
-    background-color: #4ccfca;
+    background: linear-gradient(#13979e, #55d4cf);
     color: #fff;
     padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 2rem;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
 }
 
-.cabecalho img{
+.cabecalho img {
     filter: brightness(0) invert(1);
 }
 
-.menu a{
+.menu a {
     text-decoration: dotted;
-    color:#ffffff;
+    color: #ffffff;
     font-weight: 900;
     border: 0.1rem solid #06eeff;
     padding: 0.1rem 0.5rem;
     box-shadow: 0.2rem 0.3rem 0.4rem #0a3fec;
     border-radius: 5px;
+    filter: brightness(200%);
 }
 
-.menu a:hover{
+.menu a:hover {
     color: #fff;
     border: 2px solid #0a3fec;
     box-shadow: 2px 3px 4px #007c85;
-    
+
 }
 
 
 
 
-header ul{
+header ul {
     display: flex;
     gap: 2rem;
 }
@@ -75,7 +62,8 @@ header ul{
         width: 100%;
     }
 }
-@media (max-width: 590px)  {
+
+@media (max-width: 590px) {
     .cabecalho {
         flex-direction: column;
         align-items: center;
@@ -94,34 +82,3 @@ header ul{
         box-sizing: border-box;
     }
 }
-
-main{
-    width: 100vw;
-    height: 90vh;
-    background-image: url(./imagens/pexels-katie-harp-636435-1790710\ \(1\).jpg);
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    filter: brightness(75%)
-}
-.chamada__txt{
-    width: 50%;
-    font-size: 40px;
-    padding: 50px;
-    background-color: rgb(0, 124, 133, 0.5);
-    border-radius: 20px;
-    margin-left: 50px;
-
-}
-.chamada__txt p{
-    margin-top: 40px;
-}
-.chamada__img{
-    margin-top: 100px;
-    display: flex;
-    justify-content: flex-end;
-
-}
-

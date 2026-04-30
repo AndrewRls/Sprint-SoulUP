@@ -1,0 +1,38 @@
+main {
+    width: auto;
+    height: 90vh;
+    background-image: url(../imagens/pexels-katie-harp-636435-1790710\ \(1\).jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+
+}
+
+.chamada__txt {
+    width: 50vw;
+    font-size: 3.5rem;
+    padding: 50px;
+    background-color: rgba(2, 222, 238, 0.5);
+    border-radius: 20px;
+    border-color: #0a3fec;
+    border: 2px dashed #0a3fec;
+    margin-left: 50px;
+    margin-right: 70rem;
+    margin-top: 15rem;
+    box-shadow: 1rem 1rem 0.5rem
+}
+
+.chamada__txt p {
+    margin-top: 40px;
+}
+
+.chamada__img {
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: flex-end;
+    /* margin-top: 250px; */
+
+
+}
