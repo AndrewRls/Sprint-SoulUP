@@ -29,6 +29,10 @@ ul{
     font-size: 2rem;
 }
 
+.cabecalho img{
+    filter: brightness(0) invert(1);
+}
+
 .menu a{
     text-decoration: dotted;
     color:#ffffff;
@@ -90,3 +94,34 @@ header ul{
         box-sizing: border-box;
     }
 }
+
+main{
+    width: 100vw;
+    height: 90vh;
+    background-image: url(./imagens/pexels-katie-harp-636435-1790710\ \(1\).jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    filter: brightness(75%)
+}
+.chamada__txt{
+    width: 50%;
+    font-size: 40px;
+    padding: 50px;
+    background-color: rgb(0, 124, 133, 0.5);
+    border-radius: 20px;
+    margin-left: 50px;
+
+}
+.chamada__txt p{
+    margin-top: 40px;
+}
+.chamada__img{
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
