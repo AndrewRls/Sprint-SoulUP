@@ -1,13 +1,12 @@
-main {
-    width: auto;
+
+.chamada{
+   width: auto;
     height: 90vh;
     background-image: url(../imagens/pexels-katie-harp-636435-1790710\ \(1\).jpg);
     background-repeat: no-repeat;
     display: flex;
     align-items: start;
     justify-content: center;
-
-
 }
 
 .chamada__txt {
@@ -36,3 +35,49 @@ main {
 
 
 }
+
+.header_card{
+    display: flex;
+    justify-content: space-around
+}
+ .card{
+    height: 40rem;
+    width: 30rem;
+    border: 2px solid blue;
+    padding: 1rem;
+    background-color: #b1f8f6;
+    border-radius: 20px;
+    margin: 2rem;
+}
+
+.card img{
+    width: 100%;
+    height: 20rem;
+    border-radius: 10px;
+}
+.header_card img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.conteudo{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5rem;
+    background: linear-gradient(#fbfcf7,#55d4cf );
+}
+
+.linha1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+
+.linha2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
