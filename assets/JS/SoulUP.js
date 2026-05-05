@@ -8,3 +8,4 @@ div.style.color="white"
 let botaoEscuro = document.getElementsByTagName("button")[0]
 botaoEscuro.addEventListener ("click", escuro)
 
+
