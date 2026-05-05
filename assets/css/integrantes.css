@@ -1,0 +1,70 @@
+@import url(main.css);
+body{
+    font-family: 'Lexend Deca';
+}
+
+h1{
+    text-align: center;
+    font-weight: 900px;
+    padding: 2rem;
+}
+h2{
+    font-weight: 700px;
+}
+h3{
+    font-weight: 500px;
+}
+
+/*Fazendo a estilização do conteudo*/
+#hero{
+    background: linear-gradient(#d6dac6,#55d4cf)
+}
+.hero__integrantes{
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 5px;
+}
+.hero__conteudo{
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 34%;
+    min-height: 250px;
+    padding: 40px 5px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(22, 74, 185, 0.5);
+    transition: .5s;
+}
+.hero__conteudo:hover {
+    transform: scale(1.1);
+    background-color: rgba(3, 23, 68, 0.5);
+}
+
+.img__integrantes{
+    width: 48%;
+    height: 80%;
+    border-radius: 5px;
+    border: 2px solid #000000;
+}
+.img__integrantes:hover{
+    filter: opacity(70%);
+}
+.hero__links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 5px;
+}
+.hero__conteudo a{
+    padding: 5px;  
+    border-radius: 5px;
+}
+
+
+.hero__conteudo a:hover{
+    background-color: #55d4cf;
+}
