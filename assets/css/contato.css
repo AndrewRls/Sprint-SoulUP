@@ -1,0 +1,125 @@
+
+
+.contato-soulup {
+  background: #ffffff;
+  color: #111;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.contato-hero {
+  min-height: 330px;
+  padding: 70px 8%;
+  background: linear-gradient(135deg, #08d6e4, #e4fefb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contato-hero h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 56px;
+  margin-bottom: 16px;
+}
+
+.contato-hero p {
+  font-size: 20px;
+  color: #555;
+  max-width: px;
+}
+
+.contato-bloco {
+  padding: 65px 8%;
+  text-align: center;
+}
+
+.contato-bloco--cinza {
+  background: #95f1ef;
+}
+
+.contato-bloco h2 {
+  font-size: 34px;
+  margin-bottom: 35px;
+}
+
+.contato-grid {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.contato-grid--menor {
+  max-width: 980px;
+}
+
+.contato-caixa {
+  min-height: 210px;
+  padding: 30px;
+  background: #fff;
+  border: 2px solid #dcdcdc;
+  border-radius: 2px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.25s ease;
+}
+
+.contato-caixa:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 35px rgba(7, 169, 224, 0.1);
+}
+
+.contato-caixa h3 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.contato-caixa p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.contato-caixa a {
+  width: fit-content;
+  margin-top: 28px;
+  padding: 11px 20px;
+  background: #000;
+  color: #fff;
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.contato-caixa a:hover {
+  background: #333;
+}
+
+@media (max-width: 950px) {
+  .contato-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contato-hero h1 {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 620px) {
+  .contato-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contato-hero h1 {
+    font-size: 34px;
+  }
+
+  .contato-bloco h2 {
+    font-size: 28px;
+  }
+}
