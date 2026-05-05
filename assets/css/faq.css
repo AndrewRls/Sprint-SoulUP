@@ -18,4 +18,16 @@
     padding: 4rem ;
     ;
 }
-
+.faq__ol{
+    display: grid;
+    grid-column: 1fr;
+    gap: 3rem;
+}
+.faq__li{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow:  1.7rem 2rem rgba(0, 0, 0, 0.1);
+    list-style-image: url(../imagens/informacoes.png);
+    
+}
