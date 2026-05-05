@@ -57,3 +57,19 @@
     padding: 1rem;
     font-size: 2rem;
 }
+@media (max-width: 700px) {
+    .faq__title{
+        font-size: 4rem;
+    }
+    .faq__ol{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .faq__p{
+        font-size: 1.5rem;
+    }
+    .faq__h2{
+        font-size: 2rem;
+    }
+}
