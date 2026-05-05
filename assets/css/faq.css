@@ -3,8 +3,7 @@
 }
 
 
-
-.faq__title{
+.faq__title{    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +45,9 @@
     list-style-position: inside;
     padding: 2rem;
 
+}
+.faq__li:hover{
+    background-color: #55d4cf;
 }
 .faq__h2{
     font-size: 3rem;
