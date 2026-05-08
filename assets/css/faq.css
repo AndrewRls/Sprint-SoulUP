@@ -16,7 +16,7 @@
 .main__faq{
     background-color: #f5f5f5;
     min-height: 100vh;
-    background-image: linear-gradient(#fbfcf7,#55d4cf); ;
+    background: linear-gradient(90deg,#fbfcf7,#55d4cf); ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
