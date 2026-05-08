@@ -49,8 +49,13 @@ footer{
     font-weight: bold;
 
 }
+.sobre__conteudo__p:hover{
+    background-color:#befcfa;
+;
+}
 .sobre__conteudo__h2{
  font-size: 3rem;
+ margin-left: 20px;
 
 }
 
@@ -62,12 +67,8 @@ box-shadow:  0rem  5rem 1rem 0rem rgba(0, 0, 0, 0.1);
 }
 
 .valores__bloco{    
-    background-color: wheat;
-    filter: opacity(80%);
-    width: 50%;
-    height: 400px;
-    margin-left:25%;
-    border-radius: 1cm;
+    width: 40%;
+    margin-left:30%;
 }
 
 .sobre__valores{
@@ -76,23 +77,87 @@ box-shadow:  0rem  5rem 1rem 0rem rgba(0, 0, 0, 0.1);
     margin-top: 15rem;
     margin-bottom: 3rem;
     font-weight: bold;
-
-    
 }
 .sobre__valores__lista__li p{
     display: flex;
     justify-content: center;
-      background-color: #fff;
+    background-color: #FFFFFF;
     padding: 2rem;
     border-radius: 10px;
 
     font-size: 2rem;
     font-weight: bold;
-    width: 40%;
-    margin-left:30%;
-    margin-top: 10px;
+    width: 100%;
+    margin-left:2%;
+    margin-top: 22px;
+    color: #1F2937;
+    
     
 }
 .sobre__valores__lista__li{
     list-style: none;
+    
+}
+.sobre__valores__lista__li p:hover{
+    background-color:#55d4cf;
+}
+.lista__valores{
+        background: linear-gradient(to bottom, #ece3c5, #e4d8b3);   
+        border-radius: 1cm;
+        height: 400px;
+        justify-content: center;
+        display: flex;
+        box-shadow:  0rem  5rem 1rem 0rem rgba(0, 0, 0, 0.1);
+}
+.sobre__valores__h2{
+font-size: 30px;
+font-weight: bold;;
+}
+
+.cabecalho__vantagens{
+    margin-top: 200px;
+    margin-left: 40%;
+    font-size: 30px;
+    font-weight: bold;;
+
+}
+.lista__vantagens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.lista__vantagens p{
+    background-color: #befcfa;
+    width: 1000px;
+    font-weight: bold;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-color: #000;
+    border: 1px solid;
+    border-radius: 1cm;
+     box-shadow:  0rem  1rem 1rem 0rem rgba(0, 0, 0, 0.1);
+}
+.lista__vantagens h2{
+    margin-top: 20px;
+}
+.sobre__contato{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 40px;
+    background-color: #fbfcf7;
+    width: 5%;
+    margin-left: 900px;
+    border-radius: 1cm;
+}
+#entre_em_contato{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
