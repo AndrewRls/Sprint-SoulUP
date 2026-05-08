@@ -141,7 +141,7 @@ font-weight: bold;;
     border-color: #000;
     border: 1px solid;
     border-radius: 1cm;
-     box-shadow:  0rem  1rem 1rem 0rem rgba(0, 0, 0, 0.1);
+     box-shadow:  0rem  1rem 1rem 0rem solid rgba(0, 0, 0, 0.1);
 }
 .lista__vantagens h2{
     margin-top: 20px;
@@ -160,4 +160,129 @@ font-weight: bold;;
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+@media (max-width: 1600px){
+  
+    .conteudos p {
+        margin-top: 20px;
+        
+    }
+    .sobre__div__cabecalho{
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    .valores__bloco{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .sobre__contato{
+        margin-left: 47%;
+        width: 7%;
+    }
+}
+@media (max-width: 1000px){
+
+    .sobre__div__conteudo{
+        grid-template-columns: 1fr;
+    }
+
+    .sobre__div__cabecalho{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .sobre__h1{
+        font-size: 3rem;
+    }
+
+    .sobre__conteudo__h2{
+        font-size: 2.5rem;
+    }
+
+    .sobre__conteudo__p{
+        font-size: 1.5rem;
+    }
+
+    .valores__bloco{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .lista__vantagens p{
+        width: 600px;
+        font-size: 18px;
+    }
+
+    .cabecalho__vantagens{
+        margin-left: 25%;
+    }
+
+    .sobre__contato{
+        margin-left: 44%;
+        width: 12%;
+    }
+
+}
+@media (max-width: 600px){
+
+    .sobre__div__cabecalho{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .sobre__h1{
+        font-size: 2.2rem;
+    }
+
+    .sobre__conteudo__h2{
+        font-size: 2rem;
+    }
+
+    .sobre__conteudo__p{
+        font-size: 1.2rem;
+    }
+
+    .sobre__valores__h2{
+        font-size: 24px;
+    }
+
+    .sobre__valores__lista__li p{
+        font-size: 1.2rem;
+    }
+
+    .lista__valores{
+        height: auto;
+        padding: 20px;
+    }
+
+    .cabecalho__vantagens{
+        margin-left: 7%;
+        font-size: 24px;
+    }
+
+    .lista__vantagens p{
+        width: 300px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .lista__vantagens h2{
+        font-size: 20px;
+        margin-left: 14px;
+
+    }
+
+    .sobre__contato{
+        margin-left: 40%;
+        width: 20%;
+        font-size: 30px;
+    }
+
+    footer{
+        margin-top: 15%;
+        text-align: center;
+    }
+
 }
