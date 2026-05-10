@@ -1,15 +1,19 @@
-
-
+/* =========================
+   ESTILO GERAL DA PÁGINA
+========================= */
 .contato-soulup {
-  background: #ffffff;
-  color: #111;
+  background: #007c85;
+  color: #000000;
   font-family: "Lexend Deca", sans-serif;
 }
 
+/* =========================
+   HERO / TOPO DA PÁGINA
+========================= */
 .contato-hero {
   min-height: 330px;
   padding: 70px 8%;
-  background: linear-gradient(135deg, #08d6e4, #e4fefb);
+  background: linear-gradient(180deg, #0c8ce1, #007c85);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,32 +21,41 @@
   text-align: center;
 }
 
+/* Título principal do hero */
 .contato-hero h1 {
-  font-family: "Archivo Black", sans-serif;
   font-size: 56px;
   margin-bottom: 16px;
 }
 
+/* Texto abaixo do título */
 .contato-hero p {
   font-size: 20px;
-  color: #555;
+  color: #ffffff;
   max-width: px;
 }
 
+/* =========================
+   BLOCOS/SEÇÕES DA PÁGINA
+========================= */
 .contato-bloco {
   padding: 65px 8%;
   text-align: center;
 }
 
+/* Fundo gradiente da seção */
 .contato-bloco--cinza {
-  background: #95f1ef;
+  background: linear-gradient(180deg,#007c85,  #0c8ce1);
 }
 
+/* Título das seções */
 .contato-bloco h2 {
   font-size: 34px;
   margin-bottom: 35px;
 }
 
+/* =========================
+   GRID DOS CARDS
+========================= */
 .contato-grid {
   max-width: 1180px;
   margin: 0 auto;
@@ -51,10 +64,14 @@
   gap: 24px;
 }
 
+/* Versão menor da grid */
 .contato-grid--menor {
   max-width: 980px;
 }
 
+/* =========================
+   CARD / CAIXA DE CONTATO
+========================= */
 .contato-caixa {
   min-height: 210px;
   padding: 30px;
@@ -68,22 +85,26 @@
   transition: 0.25s ease;
 }
 
+/* Efeito hover nos cards */
 .contato-caixa:hover {
   transform: translateY(-6px);
   box-shadow: 0 18px 35px rgba(7, 169, 224, 0.1);
 }
 
+/* Título do card */
 .contato-caixa h3 {
   font-size: 22px;
   margin-bottom: 5px;
 }
 
+/* Texto do card */
 .contato-caixa p {
   font-size: 15px;
   color: #555;
   line-height: 1.5;
 }
 
+/* Botão/link do card */
 .contato-caixa a {
   width: fit-content;
   margin-top: 28px;
@@ -96,29 +117,43 @@
   font-weight: 700;
 }
 
+/* Hover do botão */
 .contato-caixa a:hover {
   background: #333;
 }
 
+/* =========================
+   RESPONSIVIDADE TABLET
+========================= */
 @media (max-width: 950px) {
+  
+  /* Grid vira 2 colunas */
   .contato-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  /* Diminui o título principal */
   .contato-hero h1 {
     font-size: 44px;
   }
 }
 
+/* =========================
+   RESPONSIVIDADE CELULAR
+========================= */
 @media (max-width: 620px) {
+
+  /* Grid vira 1 coluna */
   .contato-grid {
     grid-template-columns: 1fr;
   }
 
+  /* Diminui mais o título principal */
   .contato-hero h1 {
     font-size: 34px;
   }
 
+  /* Diminui título das seções */
   .contato-bloco h2 {
     font-size: 28px;
   }
