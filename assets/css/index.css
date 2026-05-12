@@ -7,57 +7,68 @@
     display: flex;
     align-items: start;
     justify-content: center;
+    
 }
 
+
 .chamada__txt {
-    width: 50vw;
-    font-size: 3.5rem;
+    width: 65vw;
+    font-size: 2.5rem;
     padding: 50px;
-    background-color: rgba(2, 222, 238, 0.5);
+    background-color: rgba(18, 201, 214, 0.8);
     border-radius: 20px;
     border-color: #0a3fec;
     border: 2px dashed #0a3fec;
     margin-left: 50px;
-    margin-right: 70rem;
+    /* margin-right: 70rem; */
     margin-top: 15rem;
-    box-shadow: 1rem 1rem 0.5rem
+    box-shadow: 1rem 1rem 0.5rem;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
 }
+
 
 .chamada__txt p {
     margin-top: 40px;
 }
 
-.chamada__img {
-    /* margin-top: 100px; */
-    display: flex;
-    justify-content: flex-end;
-    /* margin-top: 250px; */
-
-
-}
-
 .header_card{
     display: flex;
-    justify-content: space-around
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: #c5fdfd;
+    margin-bottom: 2rem;
 }
  .card{
-    height: 40rem;
-    width: 30rem;
+    height: 47rem;
+    width: 42rem;
     border: 2px solid blue;
     padding: 1rem;
     background-color: #b1f8f6;
     border-radius: 20px;
-    margin: 2rem;
+    text-align: center;
+    padding-bottom: 20px;
+    transition: .2s;
+    
 }
 
+
 .card img{
-    width: 100%;
-    height: 20rem;
+    width: 80%;
+    height: 50%;
     border-radius: 10px;
+    border: solid 2px ;
 }
 .header_card img{
     height: 3rem;
     width: 3rem;
+    margin-top: 5rem;
 }
 
 .conteudo{
@@ -79,5 +90,6 @@
     display: flex;
     justify-content: space-around;
 }
+
 
 
