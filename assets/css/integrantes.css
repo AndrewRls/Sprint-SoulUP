@@ -61,8 +61,188 @@ h3{
     padding: 5px;  
     border-radius: 5px;
 }
-
-
 .hero__conteudo a:hover{
     background-color: #55d4cf;
+}
+
+
+
+/* FAZENDO RESPONSIVIDADE para Mobile, Tablet e Desktop */
+
+
+/* ========================= */
+/* ======= DESKTOP ========= */
+/* ========================= */
+
+@media screen and (min-width: 1200px){
+
+    .hero__integrantes{
+        gap: 2rem;
+    }
+
+    .hero__conteudo{
+        width: 45%;
+    }
+
+    h1{
+        font-size: 3.2rem;
+    }
+
+}
+
+/* ========================= */
+/* ======== TABLET ========= */
+/* ========================= */
+
+@media screen and (max-width: 1199px){
+
+    h1{
+        font-size: 2.6rem;
+    }
+
+    .hero__conteudo{
+        width: 45%;
+        min-height: 480px;
+    }
+
+    .img__integrantes{
+        max-width: 220px;
+        height: 240px;
+    }
+
+}
+
+/* ========================= */
+/* ===== MOBILE GRANDE ====== */
+/* ========================= */
+
+@media screen and (max-width: 768px){
+
+    #hero{
+        padding: 2rem 5%;
+    }
+
+    h1{
+        font-size: 2.2rem;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+
+    h3{
+        font-size: .95rem;
+    }
+
+    .hero__integrantes{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero__conteudo{
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .img__integrantes{
+        max-width: 200px;
+        height: 220px;
+    }
+
+    .hero__icones{
+        width: 36px;
+        height: 36px;
+    }
+
+}
+
+/* ========================= */
+/* ===== MOBILE PEQUENO ====== */
+/* ========================= */
+
+@media screen and (max-width: 480px){
+
+    h1{
+        font-size: 1.8rem;
+        padding: 1.5rem 1rem;
+    }
+
+    h2{
+        font-size: 1.05rem;
+        line-height: 1.5rem;
+    }
+
+    h3{
+        font-size: .9rem;
+    }
+
+    .hero__conteudo{
+        padding: 1.5rem .8rem;
+    }
+
+    .img__integrantes{
+        max-width: 170px;
+        height: 190px;
+    }
+
+    .hero__links{
+        gap: .8rem;
+    }
+
+    .hero__icones{
+        width: 32px;
+        height: 32px;
+    }
+
+    footer{
+        font-size: .9rem;
+        padding: 1rem;
+    }
+
+}
+
+
+/* TENTANDO RESOLVER PROBLEMA DE ESPAÇAMENTO DO CONTEUDO DO CARD */
+
+@media screen and (max-width: 1199px){
+
+    .hero__conteudo{
+        width: 45%;
+        min-height: auto;
+        padding: 1.2rem 0.8rem;
+    }
+
+    .img__integrantes{
+        width: 80%;
+        max-width: 220px;
+        height: auto;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    h2{
+        margin-top: 0.8rem;
+    }
+
+    .hero__links{
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+}
+
+/* Arrumando imagem para resolução de tablets */
+@media screen and (max-width: 768px){
+
+    .hero__conteudo{
+        width: 100%;
+    }
+
+    .img__integrantes{
+        width: 65%;
+        max-width: 260px;
+    }
+
 }
