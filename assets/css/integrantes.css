@@ -16,9 +16,7 @@ h3{
 }
 
 /*Fazendo a estilização do conteudo*/
-#hero{
-    background: linear-gradient(#d6dac6,#55d4cf)
-}
+
 .hero__integrantes{
     /* border: 1px solid #000; */
     display: flex;
