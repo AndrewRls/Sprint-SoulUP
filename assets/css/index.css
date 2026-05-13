@@ -27,6 +27,15 @@
     font-style: normal;
     font-weight: 100 900;
     font-display: swap;
+<<<<<<< HEAD:assets/css/index.css
+=======
+    transition: .2s;
+}
+
+.chamada__txt:hover{
+    transform: scaleX(1.1);
+   
+>>>>>>> origin/main:assets/css/hero.css
 }
 
 
@@ -46,23 +55,48 @@
     margin-bottom: 2rem;
 }
  .card{
+<<<<<<< HEAD:assets/css/index.css
     height: 47rem;
     width: 42rem;
+=======
+    height: 55rem;
+    width: 50rem;
+>>>>>>> origin/main:assets/css/hero.css
     border: 2px solid blue;
     padding: 1rem;
     background-color: #b1f8f6;
     border-radius: 20px;
+<<<<<<< HEAD:assets/css/index.css
+=======
+    margin: 2rem;
+>>>>>>> origin/main:assets/css/hero.css
     text-align: center;
     padding-bottom: 20px;
     transition: .2s;
     
+<<<<<<< HEAD:assets/css/index.css
+=======
+}
+.card:hover{
+    transform:scale(1.2);
+    margin: 15rem;
+    
+    
+>>>>>>> origin/main:assets/css/hero.css
 }
 
 
 .card img{
+<<<<<<< HEAD:assets/css/index.css
     width: 80%;
     height: 50%;
     border-radius: 10px;
+=======
+    width: 100%;
+    height: 25rem;
+    border-radius: 10px;
+    margin-bottom: 4rem;
+>>>>>>> origin/main:assets/css/hero.css
     border: solid 2px ;
 }
 .header_card img{
