@@ -2,9 +2,7 @@
    ESTILO GERAL DA PÁGINA
 ========================= */
 .contato-soulup {
-  background: #007c85;
   color: #000000;
-  font-family: "Lexend Deca", sans-serif;
 }
 
 /* =========================
@@ -13,7 +11,7 @@
 .contato-hero {
   min-height: 330px;
   padding: 70px 8%;
-  background: linear-gradient(180deg, #0c8ce1, #007c85);
+  /* background: linear-gradient(180deg, #0c8ce1, #007c85); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,10 +41,10 @@
 }
 
 /* Fundo gradiente da seção */
-.contato-bloco--cinza {
-  background: linear-gradient(180deg,#007c85,  #0c8ce1);
-}
+/* .contato-bloco--cinza {
+  /* background: linear-gradient(180deg,#007c85,  #0c8ce1); */
 
+ */
 /* Título das seções */
 .contato-bloco h2 {
   font-size: 34px;

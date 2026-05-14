@@ -6,15 +6,16 @@
 
 html {
     font-size: 62.5%;
-
+   font-family: 'Lexend Deca';
+    font-style: normal
 }
 
 body {
     font-size: 1.6rem;
-     font-family: 'Lexend Deca';
-    font-style: normal;
+ ;
     font-weight: 100 900;
     font-display: swap;
+    background-image: linear-gradient(90deg,#fbfcf7,#55d4cf); 
 }
 
 ul {

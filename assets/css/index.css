@@ -1,7 +1,24 @@
 
+.titulo{
+  min-height: 330px;
+  padding: 70px 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Título principal do hero */
+.titulo h1 {
+  font-size: 56px;
+  margin-bottom: 16px;
+}
+
+
 .chamada{
    width: auto;
-    height: 90vh;
+    height: 50vh;
     background-repeat: no-repeat;
     display: flex;
     align-items: start;
@@ -18,12 +35,8 @@
     border-color: #0a3fec;
     border: 2px dashed #0a3fec;
     margin-left: 50px;
-    margin-top: 15rem;
+    margin-top:2rem;
     box-shadow: 1rem 1rem 0.5rem;
-    font-family: 'Lexend Deca';
-    font-style: normal;
-    font-weight: 100 900;
-    font-display: swap;
 }
 
 
@@ -50,7 +63,7 @@
     min-height: 47rem;
     max-height: 500px;
     border: 2px solid blue;
-    padding: 1rem;
+    padding: .5rem;
     background-color: #b1f8f6;
     border-radius: 20px;
     text-align: center;
