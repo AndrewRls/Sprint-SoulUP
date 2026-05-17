@@ -15,6 +15,22 @@
 
 }
 
+.cabecalho__escuro{
+    width: 100%;
+    min-height: 10rem;
+    background: linear-gradient(#13979e, #003033cc);
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
 .cabecalho img {
     filter: brightness(0) invert(1);
 }

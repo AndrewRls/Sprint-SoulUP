@@ -14,6 +14,11 @@
   font-size: 56px;
   margin-bottom: 16px;
 }
+.titulo__escuro {
+  font-size: 56px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
 
 
 .chamada{
@@ -25,12 +30,26 @@
     justify-content: center;
 }
 
+.paragrafo__escuro{
+    color: #ffffff;
+}
+
+.botoes{
+    position: sticky;
+    font-size: 50px;
+    bottom: 50px
+}
+.botoes p {
+ cursor: pointer;
+}
+
+
 
 .chamada__txt {
     width: 65vw;
     font-size: 2.5rem;
     padding: 50px;
-    background-color: rgba(18, 201, 214, 0.8);
+    background-color: #12c9d6cc;
     border-radius: 20px;
     border-color: #0a3fec;
     border: 2px dashed #0a3fec;
@@ -39,10 +58,22 @@
     box-shadow: 1rem 1rem 0.5rem;
 }
 
-
-.chamada__txt p {
-    margin-top: 40px;
+.chamada__txt__escuro{
+    width: 65vw;
+    font-size: 2.5rem;
+    padding: 50px;
+    background-color: #003033cc;
+    border-radius: 20px;
+    border-color: #0a3fec;
+    border: 2px dashed #0a3fec;
+    margin-left: 50px;
+    margin-top:2rem;
+    box-shadow: 1rem 1rem 0.5rem black;
+    color: white;
 }
+
+
+
 
 .header_card{
     display: flex;
@@ -74,6 +105,7 @@
     justify-content: center;
     
 }
+
 
 
 .card img{
