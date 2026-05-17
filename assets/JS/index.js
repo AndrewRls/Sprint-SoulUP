@@ -1,5 +1,3 @@
-
-let header = document.getElementsByTagName("header")[0]
 let div = document.getElementsByClassName("chamada__txt")[0]
 let heade = document.getElementsByTagName("header")[0]
 let fundo = document.getElementsByTagName("body")[0]

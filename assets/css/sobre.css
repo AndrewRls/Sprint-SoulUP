@@ -283,3 +283,39 @@ font-weight: bold;;
     }
 
 }
+
+/* =========================
+   MODO ESCURO
+========================= */
+
+.body__escuro{
+    background-color: #0d1b1e;
+    color: white;
+}
+
+.cabecalho__escuro{
+    background-color: #00181a;
+}
+
+.sobre__div__cabecalho__escuro{
+    background-color: #003033;
+    border: 1px solid #00ffff;
+}
+
+.texto__escuro{
+    background-color: #003033cc !important;
+    color: white !important;
+}
+
+.caixa__escuro{
+    background-color: #002529 !important;
+    color: white !important;
+}
+
+.lista__valores__escuro{
+    background: #002529 !important;
+}
+
+.contato__escuro{
+    background-color: #003033cc !important;
+}

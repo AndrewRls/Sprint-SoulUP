@@ -7,7 +7,33 @@ footer {
 .cabecalho {
     margin-bottom: 2rem;
 }
+/* =========================
+   MODO ESCURO
+========================= */
 
+.body__escuro{
+    background-color: #0d1b1e;
+    color: white;
+}
+
+.cabecalho__escuro{
+    background-color: #00181a;
+}
+
+.solucao__div__cabecalho__escuro{
+    background-color: #003033;
+    border: 1px solid #00ffff;
+}
+
+.texto__escuro{
+    background-color: #003033cc !important;
+    color: white !important;
+}
+
+.caixa__escuro{
+    background-color: #002529 !important;
+    color: white;
+}
 .sobre__h1 {
     display: flex;
     font-size: 4rem;
@@ -19,6 +45,17 @@ footer {
 
 .solucao__div__cabecalho {
     border: 0.1rem solid white;
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 1cm;
+    box-shadow: 1.7rem 2rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 10rem;
+    font-weight: bold;
+
+}
+
+.solucao__div__cabecalho__escuro{
+    border: 0.1rem solid rgb(0, 0, 0);
     width: 20%;
     margin-left: 40%;
     border-radius: 1cm;

@@ -243,3 +243,29 @@ h3{
     }
 
 }
+/* =========================
+   MODO ESCURO
+========================= */
+
+.body__escuro{
+    background-color: #0d1b1e;
+    color: white;
+}
+
+.cabecalho__escuro{
+    background-color: #00181a;
+}
+
+.card__escuro{
+    background-color: #003033cc !important;
+    color: white;
+    border: 1px solid #00ffff;
+}
+
+.card__escuro:hover{
+    background-color: #001f22 !important;
+}
+
+.titulo__escuro{
+    color: white;
+}

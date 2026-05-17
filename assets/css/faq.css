@@ -73,3 +73,37 @@
         font-size: 2rem;
     }
 }
+/* =========================
+   MODO ESCURO
+========================= */
+
+.body__escuro{
+    background-color: #0d1b1e;
+    color: white;
+}
+
+.cabecalho__escuro{
+    background-color: #00181a;
+}
+
+.main__faq__escuro{
+    background: linear-gradient(90deg,#00181a,#003033);
+}
+
+.titulo__escuro{
+    color: white;
+}
+
+.card__escuro{
+    background-color: #003033cc !important;
+    color: white;
+    border: 1px solid #00ffff;
+}
+
+.card__escuro:hover{
+    background-color: #002529 !important;
+}
+
+.texto__escuro{
+    color: white;
+}

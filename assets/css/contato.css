@@ -156,3 +156,46 @@
     font-size: 28px;
   }
 }
+/* =========================
+   MODO ESCURO
+========================= */
+
+.body__escuro{
+  background-color: #0d1b1e;
+  color: white;
+}
+
+.cabecalho__escuro{
+  background-color: #00181a;
+}
+
+.hero__escuro{
+  background-color: #00181a;
+}
+
+.titulo__escuro{
+  color: white;
+}
+
+.texto__escuro{
+  color: #d6d6d6 !important;
+}
+
+.card__escuro{
+  background-color: #003033cc !important;
+  border: 1px solid #00ffff;
+  color: white;
+}
+
+.card__escuro p{
+  color: #ffffff !important;
+}
+
+.card__escuro a{
+  background-color: #000;
+  color: white;
+}
+
+.card__escuro a:hover{
+  background-color: #222;
+}

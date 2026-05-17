@@ -15,8 +15,6 @@
   margin-bottom: 16px;
 }
 .titulo__escuro {
-  font-size: 56px;
-  margin-bottom: 16px;
   color: #ffffff;
 }
 
@@ -34,11 +32,7 @@
     color: #ffffff;
 }
 
-.botoes{
-    position: sticky;
-    font-size: 50px;
-    bottom: 50px
-}
+
 .botoes p {
  cursor: pointer;
 }
