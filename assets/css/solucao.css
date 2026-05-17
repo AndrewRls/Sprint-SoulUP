@@ -1,238 +1,103 @@
 @import url(./main.css);
 
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   GERAL
+========================= */
+
 footer {
     margin-top: 7%;
+    text-align: center;
+    padding: 2rem;
 }
 
 .cabecalho {
     margin-bottom: 2rem;
 }
+
 /* =========================
    MODO ESCURO
 ========================= */
 
-.body__escuro{
+.body__escuro {
     background-color: #0d1b1e;
     color: white;
 }
 
-.cabecalho__escuro{
+.cabecalho__escuro {
     background-color: #00181a;
 }
 
-.solucao__div__cabecalho__escuro{
+.solucao__div__cabecalho__escuro {
     background-color: #003033;
     border: 1px solid #00ffff;
 }
 
-.texto__escuro{
+.texto__escuro {
     background-color: #003033cc !important;
     color: white !important;
 }
 
-.caixa__escuro{
+.caixa__escuro {
     background-color: #002529 !important;
     color: white;
 }
+
+/* =========================
+   TÍTULO
+========================= */
+
 .sobre__h1 {
     display: flex;
-    font-size: 4rem;
-    box-sizing: border-box;
-    border-radius: 40%;
     justify-content: center;
     text-align: center;
+    font-size: 4rem;
 }
 
 .solucao__div__cabecalho {
     border: 0.1rem solid white;
-    width: 20%;
-    margin-left: 40%;
+    width: fit-content;
+    padding: 1rem 3rem;
+    margin: 0 auto 6rem auto;
     border-radius: 1cm;
     box-shadow: 1.7rem 2rem rgba(0, 0, 0, 0.1);
-    margin-bottom: 10rem;
     font-weight: bold;
-
 }
 
-.solucao__div__cabecalho__escuro{
-    border: 0.1rem solid rgb(0, 0, 0);
-    width: 20%;
-    margin-left: 40%;
-    border-radius: 1cm;
-    box-shadow: 1.7rem 2rem rgba(0, 0, 0, 0.1);
-    margin-bottom: 10rem;
-    font-weight: bold;
-
-}
+/* =========================
+   CONTEÚDOS
+========================= */
 
 .solucao__div__conteudo {
-    margin-left: 1%;
+    width: 100%;
     padding: 1rem;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
     gap: 30px;
-}
-
-.solucao__conteudo__p {
-    background-color: #df0000;
-    padding: 2rem;
-    border-radius: 10px;
-
-    font-size: 2rem;
-    font-weight: bold;
-    width: 100%;
-    margin-top: 20px;
-
-}
-
-.solucao_conteudo__p:hover {
-    background-color: #befcfa;
-}
-
-.solucao__conteudo__h2 {
-    font-size: 3rem;
-    margin-left: 20px;
-
+    align-items: stretch;
 }
 
 .conteudos {
     border-radius: 10px;
-    box-shadow: 0rem 5rem 1rem 0rem rgba(0, 0, 0, 0.1);
-    width: 100%;
-
-
-}
-
-.valores__bloco {
-    width: 40%;
-    margin-left: 30%;
-}
-
-.solucao__valores {
-    display: flex;
-    justify-content: center;
-    margin-top: 15rem;
-    margin-bottom: 3rem;
-    font-weight: bold;
-}
-
-.solucao__valores__lista__li p {
-    display: flex;
-    justify-content: center;
-    background-color: #FFFFFF;
+    box-shadow: 0rem 2rem 1rem rgba(0, 0, 0, 0.1);
     padding: 2rem;
-    border-radius: 10px;
-
-    font-size: 2rem;
-    font-weight: bold;
-    width: 100%;
-    margin-left: 2%;
-    margin-top: 22px;
-    color: #1F2937;
-
-
+    background-color: #ffffff;
 }
 
-.solucao__valores__lista__li {
-    list-style: none;
-
-}
-
-.solucao__valores__lista__li p:hover {
-    background-color: #55d4cf;
-}
-
-.lista__valores {
-    background: linear-gradient(to bottom, #ece3c5, #e4d8b3);
-    border-radius: 1cm;
-    height: 400px;
-    justify-content: center;
-    display: flex;
-    box-shadow: 0rem 5rem 1rem 0rem rgba(0, 0, 0, 0.1);
-}
-
-.solucao__valores__h2 {
-    font-size: 30px;
-    font-weight: bold;
-    ;
-}
-
-.cabecalho__vantagens {
-    margin-top: 200px;
-    margin-left: 40%;
-    font-size: 30px;
-    font-weight: bold;
-    ;
-
-}
-
-.lista__vantagens {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 50px;
-
-}
-
-.lista__vantagens p {
-    background-color: #befcfa;
-    width: 1000px;
-    font-weight: bold;
-    font-size: 20px;
-
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    padding: 20px;
-    border-color: #000;
-    border: 1px solid;
-    border-radius: 1cm;
-    box-shadow: 0rem 1rem 1rem 0rem solid rgba(0, 0, 0, 0.1);
-}
-
-.lista__vantagens h2 {
-    margin-top: 20px;
-}
-
-.solucao__contato {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    font-size: 40px;
-    background-color: #fbfcf7;
-    width: 5%;
-    margin-left: 900px;
-    border-radius: 1cm;
-}
-
-#entre_em_contato {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.solucao__div__conteudo {
-    width: 500px;
-
-}
-
-.conteudos_solucao {
-    display: flex;
-    justify-content: center;
-}
-
-.solucao__div__conteudo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.conteudos_solucao {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.solucao__conteudo__h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .solucao__conteudo__p {
@@ -240,100 +105,163 @@ footer {
     padding: 2rem;
     border-radius: 10px;
 
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
 
-    width: 60%;
+    width: 100%;
     text-align: center;
 
     margin: 0 auto;
 
+    box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+#vantagens{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+/* =========================
+   VALORES
+========================= */
+
+.valores__bloco {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.solucao__valores {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+
+.solucao__valores__h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lista__valores {
+    background: linear-gradient(to bottom, #ece3c5, #e4d8b3);
+
+    border-radius: 1cm;
+    padding: 2rem;
+
+    display: flex;
+    justify-content: center;
+
     box-shadow: 0rem 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 1600px) {
-
-    .conteudos p {
-        margin-top: 20px;
-
-    }
-
-    .solucao__div__cabecalho {
-        width: 30%;
-        margin-left: 35%;
-    }
-
-    .valores__bloco {
-        width: 60%;
-        margin-left: 20%;
-    }
-
-    .solucao__contato {
-        margin-left: 47%;
-        width: 7%;
-    }
-
-    section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+.solucao__valores__lista__li {
+    list-style: none;
 }
 
-@media (max-width: 1000px) {
+.solucao__valores__lista__li p {
+    display: flex;
+    justify-content: center;
+
+    background-color: #FFFFFF;
+
+    padding: 2rem;
+    border-radius: 10px;
+
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    width: 100%;
+
+    margin-top: 22px;
+
+    color: #1F2937;
+
+    text-align: center;
+}
+
+.solucao__valores__lista__li p:hover {
+    background-color: #55d4cf;
+}
+
+/* =========================
+   VANTAGENS
+========================= */
+
+.cabecalho__vantagens {
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.lista__vantagens {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.lista__vantagens ul {
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+
+.lista__vantagens li {
+    margin-bottom: 4rem;
+}
+
+.lista__vantagens h2 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+.lista__vantagens p {
+    background-color: #befcfa;
+
+    width: 100%;
+
+    font-weight: bold;
+    font-size: 2rem;
+
+    margin-top: 20px;
+
+    padding: 20px;
+
+    border: 1px solid #000;
+    border-radius: 1cm;
+
+    box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* =========================
+   OBJETIVO
+========================= */
+
+.conteudos_solucao {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%
+}
+
+/* =========================
+   TABLETS
+========================= */
+
+@media (max-width: 1024px) {
 
     .solucao__div__conteudo {
         grid-template-columns: 1fr;
     }
 
-    .solucao__div__cabecalho {
-        width: 60%;
-        margin-left: 20%;
-        text-align: center;
-    }
-
-    .solucao__h1 {
+    .sobre__h1 {
         font-size: 3rem;
-    }
-
-    .solucao__conteudo__h2 {
-        font-size: 2.5rem;
-    }
-
-    .solucao__conteudo__p {
-        font-size: 1.5rem;
-    }
-
-    .valores__bloco {
-        width: 90%;
-        margin-left: 5%;
-    }
-
-    .lista__vantagens p {
-        width: 600px;
-        font-size: 18px;
-    }
-
-    .cabecalho__vantagens {
-        margin-left: 25%;
-    }
-
-    .solucao__contato {
-        margin-left: 44%;
-        width: 12%;
-    }
-
-}
-
-@media (max-width: 600px) {
-
-    .solucao__div__cabecalho {
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    .solucao__h1 {
-        font-size: 2.2rem;
     }
 
     .solucao__conteudo__h2 {
@@ -341,48 +269,107 @@ footer {
     }
 
     .solucao__conteudo__p {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
 
-    .solucao__valores__h2 {
-        font-size: 24px;
-    }
-
-    .solucao__valores__lista__li p {
-        font-size: 1.2rem;
-    }
-
-    .lista__valores {
-        height: auto;
-        padding: 20px;
-    }
-
-    .cabecalho__vantagens {
-        margin-left: 7%;
-        font-size: 24px;
+    .valores__bloco {
+        width: 90%;
     }
 
     .lista__vantagens p {
-        width: 300px;
-        font-size: 16px;
-        margin-left: 10px;
+        font-size: 1.7rem;
     }
 
     .lista__vantagens h2 {
-        font-size: 20px;
-        margin-left: 14px;
+        font-size: 2rem;
+    }
+}
 
+/* =========================
+   CELULARES
+========================= */
+
+@media (max-width: 768px) {
+
+    .sobre__h1 {
+        font-size: 2.4rem;
     }
 
-    .solucao__contato {
-        margin-left: 40%;
-        width: 20%;
-        font-size: 30px;
+    .solucao__div__cabecalho {
+        width: 90%;
+        padding: 1rem;
     }
 
-    footer {
-        margin-top: 15%;
+    .solucao__conteudo__h2 {
+        font-size: 1.8rem;
         text-align: center;
     }
 
+    .solucao__conteudo__p {
+        font-size: 1.4rem;
+        padding: 1.5rem;
+    }
+
+    .solucao__valores__h2, #vantagens{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .solucao__valores__lista__li p {
+        font-size: 1.3rem;
+        padding: 1.5rem;
+    }
+
+    .cabecalho__vantagens {
+        font-size: 2.2rem;
+    }
+
+    .lista__vantagens h2 {
+        font-size: 1.8rem;
+    }
+
+    .lista__vantagens p {
+        font-size: 1.4rem;
+        padding: 1.5rem;
+    }
+
+    footer {
+        text-align: center;
+        padding: 2rem;
+    }
+}
+
+/* =========================
+   CELULARES PEQUENOS
+========================= */
+
+@media (max-width: 480px) {
+
+    .sobre__h1 {
+        font-size: 2rem;
+    }
+
+    .solucao__conteudo__h2 {
+        font-size: 1.5rem;
+    }
+
+    .solucao__conteudo__p {
+        font-size: 1.2rem;
+    }
+
+    .solucao__valores__lista__li p {
+        font-size: 1.1rem;
+    }
+
+    .cabecalho__vantagens {
+        font-size: 1.8rem;
+    }
+
+    .lista__vantagens h2 {
+        font-size: 1.5rem;
+    }
+
+    .lista__vantagens p {
+        font-size: 1.2rem;
+    }
 }
